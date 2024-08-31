@@ -1,4 +1,4 @@
-package searches;
+package Searches;
 public class Searches{
     public static int iterativeBinarySearch(int[] input,int value){
         int start = 0;
@@ -7,7 +7,7 @@ public class Searches{
         while (start < end) {
             System.out.println("Start= "+start+"end= "+end);
             int midpoint = (start + end)/2;
-            System.out.println("Midpoint= " + midpont);
+            System.out.println("Midpoint= " + midpoint);
             if (input[midpoint] == value){
                 return midpoint;
             } else if(input[midpoint] < value){

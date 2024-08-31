@@ -1,6 +1,6 @@
-//package dynamicarray;
+package Array;
 
-class Array {
+class DynamicArray{
 
     private int[] items;
     private int count;
